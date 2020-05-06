@@ -52,3 +52,28 @@ AMI or Amazon Machine Image is like an iso file of the operating system you want
 **Step 6 :** Input the size of volume you require. Default is 8GB. Input atleast 50GB for better performance and future needs. You can choose the volume type and encryption method if needed. Click on **Next:Add Tags**
 
 ![](img/ec27.jpg)
+
+**Step 7 :** Click on add tag. You will find key-value pair. Input **Name** in key. In value you may give your machine whatever name 
+you like. Click on **Next: Congigure Security Group**
+
+![](img/ec28.jpg)
+
+**Step 8 :** You need a port to coonect to this virtual linux machine/instance remotely. Security group helps you configure type, ports, source.
+Linux uses **SSH** type to connect remontely.
+In source you can select from where you want to be able to access this instance i.e **ANYWHERE**(from anywhere in the world on any computer) or **MY IP** (from a specific computer only. You wont be able to connect to this instance using any other computer). Click on **Review Changes**.
+
+![](img/ec29.jpg)
+
+**Step 9 :** Review settings and options you have selected and if everthing feels right then click on **Launch**
+
+**Step 10 :** You will get a pop-up like below asking about key-pair. Key-pair is the key to you instance. You cannot connect to an instance withouot a key. You can either use an exicting key or make a new key by giving it proper name. **MAKE SURE YOU DOWNLOAD THIS KEY-PAIR** in your computer (local) and keep it safe. If you lose this key, you loose your instance. Click on **Launch Instance** after downloading the key-pair. Note : One key-pair can be linked to multiple instamces.
+
+![](img/ec210.jpg)
+
+
+Congratulations Your virtual Machine will be ready on sometime
+**It will take some time to launch because creatinon process is happening in the backend.** you can connect yo this machine only after the creation process is finished.
+
+![](img/ec211.jpg)
+
+Once you see **Running** status, you will be able to connect to this instance with your computer using the **IPv4 PUBLIC IP**.
