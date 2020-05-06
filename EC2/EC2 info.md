@@ -7,4 +7,6 @@ operating systems according to our choice and pay minimum amount of the same.
 EC2 instances are Scalable on demand, which means we can Increase or decrease capacity within minutes.
 
 **How to create an EC2 instance?**
-**Step 1 : ** Create an account in AWS portal. [click here](https://portal.aws.amazon.com/billing/signup#/start)
+
+**Step 1 :** Create an account in AWS portal. [click here](https://portal.aws.amazon.com/billing/signup#/start)
+
