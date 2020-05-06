@@ -7,6 +7,7 @@ operating systems according to our choice and pay minimum amount of the same.
 EC2 instances are Scalable on demand, which means we can Increase or decrease capacity within minutes.
 
 **How to create an EC2 instance?**
+**SECTION A** - Setting up aws .
 
 **Step 1 :** Create an account in AWS portal. [click here](https://portal.aws.amazon.com/billing/signup#/start)
 
@@ -20,11 +21,17 @@ EC2 instances are Scalable on demand, which means we can Increase or decrease ca
 
 ![](img/ec22.jpg)
 
-**Step 3 :** Click on dropdown next to services and click on EC2
+**SECTION B** - Creating EC2 instance.
+
+**Step 1 :** Click on dropdown next to services and click on EC2
 
 ![](img/ec21.jpg)
 
-**Step 4 :** Look for **Launch instance** panel and click on **Launch instance**.
+**Step 2 :** Look for **Launch instance** panel and click on **Launch instance**.
 
 ![](img/ec23.jpg)
 
+**Step 3 :** Select any AMI you want. Let's say here we select Amazon Linux AMI 2018.03.0 (HVM) . click on *select*
+	AMI or Amazon Machine Image is like an iso file of the operating system you want to install. Amazon has added some developer softwares in their AMI for ease of developers. Choose accordingly.
+
+![](img/ec24.jpg)
