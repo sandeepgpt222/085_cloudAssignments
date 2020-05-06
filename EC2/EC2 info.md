@@ -10,13 +10,21 @@ EC2 instances are Scalable on demand, which means we can Increase or decrease ca
 
 **Step 1 :** Create an account in AWS portal. [click here](https://portal.aws.amazon.com/billing/signup#/start)
 
-**Step 2 :** Signin to aws educate [click here](https://www.awseducate.com/student/s/) -> click on My Classroom 
+**Step 2 :** Signin to aws educate [click here](https://www.awseducate.com/student/s/).
+		-> click on My Classroom 
 
 ![](img/img1.jpg)
 
+		-> Click on Go to classroom
+		-> A new window will open which will look like image below. Click on **AWS comsole**
 
+![](img/ec22.jpg)
 
-Click on dropdown next to services and click on EC2
+**Step 3 :** Click on dropdown next to services and click on EC2
 
 ![](img/ec21.jpg)
+
+**Step 4 :** Look for **Launch instance** panel and click on **Launch instance**.
+
+![](img/ec23.jpg)
 
