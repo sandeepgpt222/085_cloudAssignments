@@ -37,6 +37,6 @@ EC2 instances are Scalable on demand, which means we can Increase or decrease ca
 
 **Step 3 :** Select any AMI you want. Let's say here we select Amazon Linux AMI 2018.03.0 (HVM) . click on **select**.
 
-	AMI or Amazon Machine Image is like an iso file of the operating system you want to install. Amazon has added some developer softwares in their AMI for ease of developers. Choose accordingly.
+AMI or Amazon Machine Image is like an iso file of the operating system you want to install. Amazon has added some developer softwares in their AMI for ease of developers. Choose accordingly.
 
 ![](img/ec24.jpg)
