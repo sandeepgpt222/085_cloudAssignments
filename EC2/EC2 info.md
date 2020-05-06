@@ -40,3 +40,15 @@ EC2 instances are Scalable on demand, which means we can Increase or decrease ca
 AMI or Amazon Machine Image is like an iso file of the operating system you want to install. Amazon has added some developer softwares in their AMI for ease of developers. Choose accordingly.
 
 ![](img/ec24.jpg)
+
+**Step 4 :** Choose the instance type according to the configuration you want and click on **Next:Configure Instance Details**. **Donot** click on **review and lauch untill** you reach the last step.
+
+![](img/ec25.jpg)
+
+**Step 5 :** On the Configure instance page You can select options what you want. It's ok if you dont select or change anything here Click on **Next:Add Storage**.
+
+![](img/ec26.jpg)
+
+**Step 6 :** Input the size of volume you require. Default is 8GB. Input atleast 50GB for better performance and future needs. You can choose the volume type and encryption method if needed. Click on **Next:Add Tags**
+
+![](img/ec27.jpg)
